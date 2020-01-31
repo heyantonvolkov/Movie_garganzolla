@@ -1,0 +1,109 @@
+body, h1, h2, h3, h4, p, ul, ol, li {
+	margin: 0;
+	font-family: "Helvetica";
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.header {
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 30px;
+}
+
+.header__link {
+	margin-right: 15px;
+	color: white;
+}
+
+.header__logo {
+	width: 150px;
+}
+
+.hero {
+	background-color: #4dd154;
+}
+
+.hero__content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+}
+
+.hero__title {
+	margin-bottom: 20px;
+	font-size: 40px;
+}
+
+.hero__desc {
+	margin-bottom: 30px;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.hero__image {
+	width: 600px;
+	margin-right: 50px;
+}
+
+.partners {
+	padding: 40px 0 30px;
+	text-align: center;
+}
+
+.partners__subtitle {
+	margin-bottom: 40px;
+	font-weight: 400;
+}
+
+.partners__list {
+	margin-bottom: 70px;
+}
+
+.partners__title {
+	font-size: 35px;
+	font-weight: 400;
+}
+
+.partner {
+	margin: 0 10px;
+}
+
+.btn {
+	padding: 11px 25px;
+	background-color: white;
+	border: 1px solid #565656;
+	border-radius: 3px;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.btn.-success {
+	background-color: #e3c324;
+	border-color: #e3c324;
+}
+
+.btn.-in-header {
+	padding: 11px 19px;
+	background-color: transparent;
+	border-color: white;
+	color: white;
+}
+
+.-g-mr-20 {
+	margin-right: 20px;
+}
